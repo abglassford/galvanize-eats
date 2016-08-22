@@ -1,0 +1,12 @@
+h1  {
+  color: white;
+  background-color: rgba(72, 73, 77, 0.3);
+  padding: 10px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+.splash {
+}
+.noms {
+  display: flex
+}
