@@ -1,7 +1,10 @@
 h1 {
-  color: red
+  color: red;
 }
 .items {
   overflow: scroll;
-  width: 100px;
+  width: 40%;
+}
+.cart-table {
+  width: 30%;
 }
