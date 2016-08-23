@@ -7,6 +7,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     background: transparent;
 }
+body{
+  font-family: sans-serif;
+  background-color: rgb(204, 129, 31);
+}
 header {
   position: absolute;
   left: 0;
@@ -22,12 +26,15 @@ main {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
-  height: 660px;
+  height:700px;
   margin-bottom: 30px;
 }
+a {
+  text-decoration: none;
+  color: white
+}
+
 .container {
-  border: 1px solid black;
   height: 100%;
   width: 90%;
   margin-left: auto;
@@ -39,7 +46,6 @@ main {
   display: inline-block;
   height: 600px;
   width: 45%;
-  border: 1px solid black;
 }
 .quantityBox{
   height: 60px;
@@ -69,7 +75,8 @@ main {
 .cust {
   width: 90%;
   height: 30px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 .deliverIt {
   margin-top: 20px;
@@ -85,7 +92,6 @@ main {
 }
 .items {
   overflow: scroll;
-  margin-top: 20px;
   width: 90%;
   height: 160px;
 }
@@ -96,14 +102,21 @@ main {
   font-size: 20px;
 }
 .cart {
+  font-family: sans-serif;
+  background-color: white;
   vertical-align: top;
-  height: 600px;
+  height: 630px;
   border: 1px solid black;
   margin: 30px 10px 10px 10px;
   width: 45%;
   display: inline-block;
 }
+.grand-total{
+  font-weight: bold;
+}
 .cart-list {
+  font-size: 30px;
+  padding-top: 30px;
   height: 80%;
   overflow: scroll;
 }
@@ -112,7 +125,16 @@ main {
   text-align: right;
   padding-right: 10px;
 }
-
+.status{
+  color: white;
+  padding-top: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 399px;
+  height: 50px;
+  text-align: center;
+}
 footer {
   height: 60px;
   line-height: 60px;
