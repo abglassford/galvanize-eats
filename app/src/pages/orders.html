@@ -9,38 +9,46 @@
     <header>
       <a href="../index.html"><h1>Galvanize Eats</h1></a>
     </header>
-    <section class="selection">
-      <select class="items" size="5">
+    <main>
+      <section class="container">
+        <section class="menu-cust">
+          <section class="selection">
+            <section class="menu">
+              <select class="items" size="5"></select>
+            </section>
+            <section class="quantityBox">
+              <input class="quantity"type="quantity" name="quantity" value="">
+              <input class="add" type="button" name="add" value="Add Item">
+            </section>      
+          </section>
+          <section class="customer-info">
+            <form class="info-form" action="index.html" method="post">
+              <label class="label" for="name">Name:</label>
+              <input class="cust name" type="text" name="name" value="">
+              <label class="label" for="phone">Phone Number:</label>
+              <input class=" cust phone" type="phone" name="phone" value="">
+              <label class="label" for="address">Address:</label>
+              <input class=" cust address" type="text" name="address" value="">
+              <input class="deliverIt" type="submit" name="deliver" value="Deliver It!">
+            </form>
+          </section>
+        </section>
 
-      </select>
-      <input class="quantity"type="quantity" name="quantity" value="">
-      <input class="add" type="button" name="add" value="Add Item">
-    </section>
-    <section class="cart">
-      <ul class="cart-list"></ul>
-      <section class="totals">
-        <div class="subtotal">Subtotal:</div>
-        <div class="tax">Tax:</div>
-        <div class="grand-total">Grand Total:</div>
+        <section class="cart">
+          <ul class="cart-list"></ul>
+          <section class="totals">
+            <div class="subtotal">Subtotal: 0.00</div>
+            <div class="tax">Tax: 0.00</div>
+            <div class="grand-total">Grand Total: 0.00</div>
+          </section>
+        </section>
+
       </section>
-    </section>
-    <section class="customer-info">
-      <form class="info-form" action="index.html" method="post">
-        Name:
-        <input type="text" name="name" value="">
-        Phone Number:
-        <input type="phone" name="phone" value="">
-        Address:
-        <input type="text" name="address" value="">
-        <input type="submit" name="deliver" value="Deliver It!">
-      </form>
-    </section>
+    </main>
+
     <footer>
       <p>
-      	&#169; Galvanize, 2015 </footer>
-      </p>
-      <p>
-        Denver, Colorado
+      	&#169; Galvanize, 2015 - Denver, Colorado
       </p>
       <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
       <script type="text/javascript" src="../scripts/menu-call.js"></script>
