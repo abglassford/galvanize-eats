@@ -1,10 +1,122 @@
-h1 {
-  color: red;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 35px;
+  padding: 10px 20px 10px 20px;
+  font-family: sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+main {
+  padding-top: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  height: 660px;
+  margin-bottom: 30px;
+}
+.container {
+  border: 1px solid black;
+  height: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.menu-cust{
+  margin: 30px 10px 10px 10px;
+  display: inline-block;
+  height: 600px;
+  width: 45%;
+  border: 1px solid black;
+}
+.quantityBox{
+  height: 60px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+.quantity {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.add{
+  border: none;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.customer-info {
+  padding: 20px 0px 20px 30px;
+  text-align: left
+}
+.cust {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 10px
+}
+.deliverIt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 399px;
+  border: none;
+  height: 50px;
+}
+.label {
+  text-align: left;
+  font-size: 15px;
 }
 .items {
   overflow: scroll;
-  width: 40%;
+  margin-top: 20px;
+  width: 90%;
+  height: 160px;
 }
-.cart-table {
-  width: 30%;
+.burger {
+  font-size: 20px;
+}
+.pizza {
+  font-size: 20px;
+}
+.cart {
+  vertical-align: top;
+  height: 600px;
+  border: 1px solid black;
+  margin: 30px 10px 10px 10px;
+  width: 45%;
+  display: inline-block;
+}
+.cart-list {
+  height: 80%;
+  overflow: scroll;
+}
+.totals {
+  margin-top: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+footer {
+  height: 60px;
+  line-height: 60px;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  text-align: center;
 }

@@ -37,14 +37,14 @@ a {
   text-align: center;
 }
 .place-order {
-  margin-top: 20px;
+  margin-top: 230px;
   font-size: 30px;
   text-align: center;
   color: white;
   background-color: rgb(2, 210, 117);
   height: 60px;
   line-height: 60px;
-  width: 40%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
 }

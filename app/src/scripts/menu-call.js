@@ -3,7 +3,7 @@
 
   let itemTypeArr = []
   let itemArr = []
-  
+
   $.ajax(`https://galvanize-eats-api.herokuapp.com/menu`).done(
     function(data) {
     data.menu.forEach(function(item){
