@@ -4,6 +4,7 @@
 
 var subTotVar = 0
 var taxRate = 0.08
+var cartNum = 0
 
 //click event to add item to cart
 $(`.add`).on(`click`, function () {
@@ -17,6 +18,8 @@ $(`.add`).on(`click`, function () {
     } else {
       //append the desired quantity of items to the cart
       for (var i = 0; i < $(`.quantity`).val(); i++) {
+        //update number of items in cart (for validation purposes)
+        cartNum += $(`.quantity`).val()
         //set subtotal to the total of the prices of the items in the cart
         subTotVar += parseFloat($('.items option:selected').attr('price'))
         //append the selected and submitted item names and prices to the cart
